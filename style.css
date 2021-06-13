@@ -27,7 +27,7 @@
      height: 100%;
      text-align: center;
      position:relative;
-     border: 2px solid brown;
+     border: 2px solid #ffffff;
      align-items: center;
  }
 #tabs>.list>#hpp>.happyhour{
@@ -48,7 +48,7 @@
     text-align: center;
 }
 .pt{
-    border: 2px solid black;
+    border: 2px solid white;
     background-color:#D25108;
     text-align: center;
     height: 40px;
@@ -125,5 +125,50 @@
 }
 
 .drinksww{
-    border: 2px solid black;
+    border: 2px solid #ffffff;
+}
+
+#lss{
+    
+    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    font-style: normal;
+    text-decoration-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+
+.vg2{
+
+    border-color: #D25108;
+}
+
+#tabz{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.tabs{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.cb{
+    color: #D25108;
+}
+
+.menub{
+    display: flex;
+    border: solid blue;
+    height: fit-content;
+    width: ;
+    justify-content: space-between;
+    color: #ffffff;
 }
