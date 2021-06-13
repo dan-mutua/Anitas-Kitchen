@@ -1,6 +1,6 @@
 #logo{
     background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/landing.jpg");
-    position: center;
+    position: contain;
     height: 50vh;
     background-size: cover;
     width:100%;
@@ -8,6 +8,8 @@
     
 
 }
+
+
 
   #pic{
       display: flex;
@@ -42,10 +44,13 @@
     top: 50%;
     text-align: center;
     position: absolute;
+    color: #ffffff;
 }
 .breakfast{
     position: relative;
     text-align: center;
+    width: 100%;
+    height:auto;
 }
 .pt{
     border: 2px solid white;
@@ -61,11 +66,13 @@
     top:50%;
     text-decoration-color: #ffffff;
     position: absolute;
+    color:#ffffff
 
 }
 .lunch{
     position: relative;
     text-align: center;
+    opacity: 0.4;
 }
 
 .dinnertext{
@@ -76,12 +83,14 @@
     text-decoration-color: #ffffff;
     position: absolute;
     font-weight: 500;
+    color: #ffffff;
 
 }
 .dinner{
     position: relative;
     text-align: center;
 }
+#tabs
 
 #drink{
     display: flex;
@@ -105,14 +114,14 @@
 }
 
 .fastfoodp{
-    border: 2px solid #ffffff;.f
+    border: 2px solid #ffffff;
 }
 
 #drink{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: ;
+    
 
 }  
 
@@ -122,16 +131,20 @@
     width: fit-content;
     height: fit-content;
     float: right;
+    padding-bottom: 20px;
+   
 }
 
 .drinksww{
     border: 2px solid #ffffff;
+    float: left;
 }
 
 #lss{
     
     background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     font-style: normal;
     text-decoration-color: #ffffff;
@@ -151,13 +164,28 @@
     flex-direction: row;
     
 }
+.fastfood{
+    width: 100%;
+    text-align: center;
+}.drinks{
+    width: 100%;
+    text-align: center;
+}
+.chicken{
+    width: 100%;
+    text-align: center;
+}
+.rice{
+    width: 100%;
+    text-align: center;
+}
 
 .tabs{
-    padding: 20px;
+    padding: ;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: #ffffff;
 }
 
 .cb{
@@ -166,9 +194,71 @@
 
 .menub{
     display: flex;
-    border: solid blue;
-    height: fit-content;
-    width: ;
-    justify-content: space-between;
+    border: 2px solid green;
     color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+
+}
+.menub p {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+#tabs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+     padding: 10px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    background-color:  #F15A29;
+    color: #ffffff;
+}
+#customers{
+    float: left;
+    padding: 13px;
+}
+
+.footerwords{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerlogo{
+    position: relative;
+    width: 48px;
+    height: 45px;
+    left: 44%;
+    right: 56%;
+    top: 10px;
+    bottom: 100px;
+}
+
+.footerimages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+*{
+    text-decoration: none;
+}
+
+.st{
+    background-color: #960c0c;
+    width: 73%;
+    height: 30%;
+
 }
