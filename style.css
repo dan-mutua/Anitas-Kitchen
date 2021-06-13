@@ -1,1 +1,25 @@
+#logo{
+    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/landing.jpg");
+    position: center;
+    height: 50vh;
+    background-size: cover;
+    width:100%;
+    background-repeat:no-repeat;
+    
 
+}
+
+  #pic{
+      display: flex;
+      justify-content: center;
+  } 
+ #motto{
+     display: flex;
+     justify-content: center;
+     color: #ffffff;
+     font-size: 30px;
+ }
+ #tabs{
+     display: flex;
+     
+ }
