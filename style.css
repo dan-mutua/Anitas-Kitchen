@@ -90,7 +90,10 @@
     position: relative;
     text-align: center;
 }
-#tabs
+#tabs{
+    display: flex;
+    width: 100%;
+}
 
 #drink{
     display: flex;
@@ -110,6 +113,7 @@
     flex-direction: column;
     width: fit-content;
     height: fit-content;
+    box-shadow: 0 0 5px;
 
 }
 
@@ -132,6 +136,7 @@
     height: fit-content;
     float: right;
     padding-bottom: 20px;
+    box-shadow: 0 0 5px;
    
 }
 
@@ -139,7 +144,7 @@
     border: 2px solid #ffffff;
     float: left;
 }
-
+/* 
 #lss{
     
     background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
@@ -149,7 +154,7 @@
     font-style: normal;
     text-decoration-color: #ffffff;
     padding: 20px 20px 20px 20px;
-}
+} */
 
 
 
@@ -193,11 +198,14 @@
 
 .menub{
     display: flex;
-    border: 2px solid green;
-    color: #ffffff;
+    border: 2px;
+    color:black;
     padding: 0;
     margin: 0;
+    width: 100%;
+
     text-align: center;
+   
 
 
 }
@@ -255,13 +263,14 @@
 }
 
 .st{
-    background-color: #ffffff;
+    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
     margin-left: auto;
     margin-right: auto;
     border: blue;
-    width: 73%;
+    width: 70%;
     height: 30%;
-
+    flex-direction: column;
+  
 }
 
 .customers{
@@ -281,4 +290,47 @@
 }
 #customers{
     border-right: solid grey 1px;
+}
+.tabsz{
+    display: flex;
+
+}
+
+.tabsimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:;
+}
+
+.topfooter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/subscribe.jpg");
+    height: 200px;
+    
+    color: #ffffff;
+    text-align: center;
+}
+
+.cb{
+    width: 25%;
+
+}
+
+.fastfood{
+    background-color: #ffffff;
+}
+
+.drinks{
+    background-color:gray;
+    border-left: solid black;
+}
+
+.vg1{
+    display: flex;
+    border: 2px solid #F15A29;
+    border-width: thin;
 }
