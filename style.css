@@ -263,3 +263,22 @@
     height: 30%;
 
 }
+
+.customers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    box-shadow: 0 0 5px;
+}
+
+#customers, #about menu{
+         text-align: center;
+         margin: 0 20px 0 10px;
+         
+}
+#customers{
+    border-right: solid grey 1px;
+}
