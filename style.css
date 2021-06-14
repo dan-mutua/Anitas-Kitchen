@@ -21,19 +21,8 @@
      color: #ffffff;
      font-size: 30px;
  }
- .list{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     margin: 20px 20px 0;
-     height: 100%;
-     text-align: center;
-     position:relative;
-     border: 2px solid #ffffff;
-     align-items: center;
- }
+ 
 #tabs>.list>#hpp>.happyhour{
-    border: 2px solid black;
     text-align: center;
     height: 40px;
     width: 200px;
@@ -53,11 +42,12 @@
     height:auto;
 }
 .pt{
-    border: 2px solid white;
+    color: black;
     background-color:#D25108;
     text-align: center;
-    height: 40px;
-    width: 200px;
+    width: 25%;
+    height: 50%;
+   
 }
 .lunchtext{
     transform: translate(-50%,-50%);
@@ -106,6 +96,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 20px;
+    padding: 5px;
    
 }
 .imgs{
@@ -119,12 +111,14 @@
 
 .fastfoodp{
     border: 2px solid #ffffff;
+    margin-top: 20px;
 }
 
 #drink{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 20px;
     
 
 }  
@@ -143,6 +137,7 @@
 .drinksww{
     border: 2px solid #ffffff;
     float: left;
+    text-align: right;
 }
 /* 
 #lss{
@@ -161,7 +156,7 @@
 
 .vg2{
 
-    border-color: #D25108;
+    color: #F15A29;
 }
 
 #tabz{
@@ -187,28 +182,13 @@
 
 .tabs{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+    flex-direction: row;    
 }
 
 .cb{
     color: #D25108;
 }
 
-.menub{
-    display: flex;
-    border: 2px;
-    color:black;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-
-    text-align: center;
-   
-
-
-}
 .menub p {
     display: inline-block;
     font-size: 20px;
@@ -220,13 +200,23 @@
 #tabs{
     display: flex;
     flex-direction: row;
-    margin: auto;
-    width: 100%;
-     padding: 20px 20px 20px 20px;
+    height: 100%;
+    text-align: center;
+    /* position:relative; */
     align-items: center;
-    justify-content: space-around;
 }
 
+#tabs div{
+    width: 100%;
+}
+
+#tabs img{
+    width: 100%;
+    height: 100%;
+}
+.tabs div{
+    width:25%;
+}
 #footer{
     background-color:  #F15A29;
     color: #ffffff;
@@ -262,16 +252,16 @@
     text-decoration: none;
 }
 
-.st{
+ .st{
     background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
-    margin-left: auto;
-    margin-right: auto;
-    border: blue;
-    width: 70%;
-    height: 30%;
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* align-items:center; */
   
-}
+} 
 
 .customers{
     display: flex;
@@ -291,16 +281,40 @@
 #customers{
     border-right: solid grey 1px;
 }
-.tabsz{
+#tabsz{
     display: flex;
+    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
+    width: 59.5%;
+    flex-direction: column;
+    justify-content:space-between;
+    background-size:50%;
+}
+
+.menub{
+    display: flex;
+    border: 1px;
+    color:black;
+    padding: 0;
+    margin-top: 30px;
+    width: 55%;
+    text-align: center;
+   
+
 
 }
 
 .tabsimg{
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    width: 55%;
     align-items: center;
-    background-color:;
+    /* background-color: */
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    background-color: white;
+    margin-bottom: 30px;
+    
 }
 
 .topfooter{
@@ -316,12 +330,14 @@
 }
 
 .cb{
-    width: 25%;
+    padding: 0 20px;
+    left: 20px;
 
 }
 
 .fastfood{
     background-color: #ffffff;
+    color: #F15A29;
 }
 
 .drinks{
@@ -333,4 +349,31 @@
     display: flex;
     border: 2px solid #F15A29;
     border-width: thin;
+    color: #F15A29;
+}
+
+
+.hr{
+    width: 25%;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerimages{
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.ss{
+    color: #F15A29;
+}
+
+#hpp{
+    width: 394px;
+    height: 240px;
+
+}
+button{
+    color: #F15A29;
 }
