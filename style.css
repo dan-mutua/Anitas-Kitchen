@@ -47,6 +47,7 @@
     text-align: center;
     width: 25%;
     height: 50%;
+    font-size: 55px;
    
 }
 .lunchtext{
@@ -139,17 +140,6 @@
     float: left;
     text-align: right;
 }
-/* 
-#lss{
-    
-    background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/foodsBg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    font-style: normal;
-    text-decoration-color: #ffffff;
-    padding: 20px 20px 20px 20px;
-} */
 
 
 
@@ -259,7 +249,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    /* align-items:center; */
+    
   
 } 
 
@@ -307,7 +297,6 @@
     display: inline-flex;
     width: 55%;
     align-items: center;
-    /* background-color: */
     justify-content:center;
     margin-left: auto;
     margin-right: auto;
@@ -358,6 +347,7 @@
     height: 50%;
     justify-content: center;
     text-align: center;
+    font-size: 55px;
 }
 
 .footerimages{
@@ -377,3 +367,9 @@
 button{
     color: #F15A29;
 }
+#copyright{
+    font-size: 20px;
+    display: flex;
+}
+
+
