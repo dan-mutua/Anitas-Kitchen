@@ -1,3 +1,11 @@
+body{
+    background-color: #d1bbb4;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    font-size: 22px ;
+    margin-bottom: 20px;
+}
 #logo{
     background-image: url("./assets-20210611T050526Z-001/assets/backgrounds/landing.jpg");
     position: contain;
@@ -111,7 +119,7 @@
 }
 
 .fastfoodp{
-    border: 2px solid #ffffff;
+    border: 2px solid #d1bbb4;
     margin-top: 20px;
 }
 
@@ -136,18 +144,11 @@
 }
 
 .drinksww{
-    border: 2px solid #ffffff;
+    border: 2px solid #d1bbb4;
     float: left;
     text-align: right;
 }
 
-
-
-
-.vg2{
-
-    color: #F15A29;
-}
 
 #tabz{
     display: flex;
@@ -333,12 +334,8 @@
     background-color:gray;
     border-left: solid black;
 }
-
-.vg1{
-    display: flex;
-    border: 2px solid #F15A29;
-    border-width: thin;
-    color: #F15A29;
+button{
+    color:#D25108 ;
 }
 
 
@@ -371,5 +368,7 @@ button{
     font-size: 20px;
     display: flex;
 }
-
+#menu{
+    background-color: #ffffff;
+}
 
